@@ -1,4 +1,1 @@
-dataset/
-*.csv
-*.zip
-*.jpg
+/app/pytorch_model.bin
