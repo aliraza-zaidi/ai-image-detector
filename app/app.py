@@ -9,7 +9,6 @@ st.set_page_config(page_title="AI Image Detector", layout="centered")
 st.title("🧠 AI Image Detector")
 st.write("Upload an image to detect whether it is **AI-generated** or **human-made**.")
 
-
 @st.cache_resource
 def load_model():
     model = SwinForImageClassification.from_pretrained(".")
